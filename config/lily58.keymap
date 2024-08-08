@@ -23,7 +23,7 @@
             display-name = "Base";
             bindings = <
 &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4  &kp DE_N5  &kp DE_MINUS                                   &kp DE_ACUTE    &kp DE_N6       &kp DE_N7        &kp DE_N8     &kp DE_N9   &kp DE_N0
-&kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T   &kp NUBS                                       &kp DE_PLUS     &kp DE_Z        &kp DE_U         &kp DE_I      &kp DE_O    &kp DE_P
+&kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T   &kp custom_less_then                           &kp DE_PLUS     &kp DE_Z        &kp DE_U         &kp DE_I      &kp DE_O    &kp DE_P
 &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F   &kp DE_G   &kp ESC                                        &kp DE_HASH     &kp DE_H        &kp DE_J         &kp DE_K      &kp DE_L    &tog 1
 &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V   &kp DE_B   &kp LEFT_CONTROL  &kp DELETE    &kp UP_ARROW   &kp DOWN_ARROW  &kp DE_N        &kp DE_M         &kp DE_COMMA  &kp DE_DOT  &kp DE_ESZETT
                                  &kp LALT   &kp LGUI   &kp LEFT_SHIFT    &kp ENTER     &kp BACKSPACE  &kp DE_SPACE    &kp LEFT_ARROW  &kp RIGHT_ARROW
@@ -42,4 +42,12 @@
             >;
         };
     };
+};
+
+
+&custom_less_then {
+    bindings = <&kp NUBS>; // Outputs `<`
+    when-pressed = <&kp NUBS>;
+    when-shifted = <&kp LABK>;   // Outputs `>`
+    when-alted = <&kp PIPE>;     // Outputs `|`
 };
