@@ -53,9 +53,3 @@
     };
 };
 
-&custom_less_then {
-    bindings = <&kp NUBS>; // Outputs `<`
-    when-pressed = <&kp NUBS>;
-    when-shifted = <&kp LABK>;   // Outputs `>`
-    when-alted = <&kp PIPE>;     // Outputs `|`
-};
