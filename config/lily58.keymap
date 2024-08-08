@@ -13,7 +13,7 @@
         custom_less_then: custom_less_then {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LT>;
             label = "CUSTOM_LESS_THEN";
         };
     };
@@ -52,4 +52,3 @@
         };
     };
 };
-
