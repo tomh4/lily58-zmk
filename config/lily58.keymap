@@ -33,7 +33,7 @@
             display-name = "macOS";
             bindings = <
 &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4  &kp DE_N5  &kp DE_MINUS                                   &kp DE_ACUTE    &kp DE_N6       &kp DE_N7        &kp DE_N8     &kp DE_N9   &kp DE_N0
-&kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T   &kp DE_LESS_THAN                               &kp DE_PLUS     &kp DE_Z        &kp DE_U         &kp DE_I      &kp DE_O    &mo 2
+&kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T   &kp DE_LESS_THAN                               &kp DE_PLUS     &kp DE_Z        &kp DE_U         &kp DE_I      &kp DE_O    &mo 3
 &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F   &kp DE_G   &kp LA(LEFT_WIN)                               &kp DE_HASH     &kp DE_H        &kp DE_J         &kp DE_K      &kp DE_L    &kp DE_P
 &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V   &kp DE_B   &kp LEFT_CONTROL  &kp DELETE    &kp UP_ARROW   &kp DOWN_ARROW  &kp DE_N        &kp DE_M         &kp DE_COMMA  &kp DE_DOT  &kp DE_ESZETT
                                  &kp LALT   &kp LGUI   &kp LEFT_SHIFT    &kp ENTER     &kp BACKSPACE  &kp DE_SPACE    &kp LEFT_ARROW  &kp RIGHT_ARROW
@@ -46,7 +46,20 @@
             display-name = "Windows";
             bindings = <
 &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4  &kp DE_N5         &kp DE_MINUS                                       &kp DE_ACUTE    &kp DE_N6       &kp DE_N7        &kp DE_N8     &kp DE_N9   &kp DE_N0
-&kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T          &kp DE_LESS_THAN                                   &kp DE_PLUS     &kp DE_Z        &kp DE_U         &kp DE_I      &kp DE_O    &mo 2
+&kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T          &kp DE_LESS_THAN                                   &kp DE_PLUS     &kp DE_Z        &kp DE_U         &kp DE_I      &kp DE_O    &mo 3
+&kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F   &kp DE_G          &kp LA(LEFT_CONTROL)                               &kp DE_HASH     &kp DE_H        &kp DE_J         &kp DE_K      &kp DE_L    &kp DE_P
+&kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V   &kp DE_B          &kp LGUI              &kp DELETE    &kp UP_ARROW   &kp DOWN_ARROW  &kp DE_N        &kp DE_M         &kp DE_COMMA  &kp DE_DOT  &kp DE_ESZETT
+                                 &kp LALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT        &kp ENTER     &kp BACKSPACE  &kp DE_SPACE    &kp LEFT_ARROW  &kp RIGHT_ARROW
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        };
+
+        layer_3 {
+            display-name = "Windows Code";
+            bindings = <
+&kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4  &kp DE_N5         &kp DE_MINUS                                       &kp DE_ACUTE    &kp DE_N6       &kp DE_N7        &kp DE_N8     &kp DE_N9   &mo 3
+&kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T          &kp DE_LESS_THAN                                   &kp DE_PLUS     &kp DE_Z        &kp DE_U         &kp DE_I      &kp DE_O    &kp DE_N0
 &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F   &kp DE_G          &kp LA(LEFT_CONTROL)                               &kp DE_HASH     &kp DE_H        &kp DE_J         &kp DE_K      &kp DE_L    &kp DE_P
 &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V   &kp DE_B          &kp LGUI              &kp DELETE    &kp UP_ARROW   &kp DOWN_ARROW  &kp DE_N        &kp DE_M         &kp DE_COMMA  &kp DE_DOT  &kp DE_ESZETT
                                  &kp LALT   &kp LEFT_CONTROL  &kp LEFT_SHIFT        &kp ENTER     &kp BACKSPACE  &kp DE_SPACE    &kp LEFT_ARROW  &kp RIGHT_ARROW
@@ -61,7 +74,7 @@
 &kp DE_AT        &trans        &kp DE_EURO   &trans        &kp TAB       &trans                        &trans  &trans  &kp DE_U_UMLAUT  &trans  &kp DE_O_UMLAUT  &trans
 &kp DE_A_UMLAUT  &kp DE_SZ     &trans        &trans        &trans        &kp ESCAPE                    &trans  &trans  &trans           &trans  &trans           &trans
 &trans           &trans        &trans        &trans        &trans        &to 0       &trans    &trans  &trans  &trans  &trans           &trans  &trans           &trans
-                                             &trans        &trans        &caps_word  &to 1     &trans  &trans  &trans  &trans
+                                             &trans        &trans        &caps_word  &to 1     &to 2   &trans  &trans  &trans
             >;
         };
     };
