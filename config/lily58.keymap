@@ -26,8 +26,8 @@
             display-name = "macOS";
             bindings = <
 &to 3         &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4         &kp DE_N5                                            &kp DE_N6     &kp DE_N7       &kp DE_N8        &kp DE_N9   &kp DE_N0     &kp DE_ACUTE
-&kp TAB       &kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R          &kp DE_T                                             &kp DE_Z      &kp DE_U        &kp DE_I         &kp DE_O    &kp DE_N0     &kp DE_EQUAL
-&kp CAPSLOCK  &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F          &kp DE_G                                             &kp DE_H      &kp DE_J        &kp DE_K         &kp DE_L    &kp DE_P      &kp ESCAPE
+&kp CAPSLOCK  &kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R          &kp DE_T                                             &kp DE_Z      &kp DE_U        &kp DE_I         &kp DE_O    &kp DE_N0     &kp DE_EQUAL
+&kp TAB       &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F          &kp DE_G                                             &kp DE_H      &kp DE_J        &kp DE_K         &kp DE_L    &kp DE_P      &kp ESCAPE
 &kp LEFT_ALT  &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V          &kp DE_B        &kp LEFT_CONTROL    &kp DE_QUESTION  &kp DE_N      &kp DE_M        &kp DE_COMMA     &kp DE_DOT  &kp UP_ARROW  &kp DOWN_ARROW
                                     &kp ENTER  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &mo 2               &kp BACKSPACE    &kp DE_SPACE  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
@@ -39,8 +39,8 @@
             display-name = "Windows";
             bindings = <
 &to 3         &kp DE_N1  &kp DE_N2  &kp DE_N3  &kp DE_N4         &kp DE_N5                                        &kp DE_N6     &kp DE_N7       &kp DE_N8        &kp DE_N9   &kp DE_N0     &kp DE_ACUTE
-&kp TAB       &kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R          &kp DE_T                                         &kp DE_Z      &kp DE_U        &kp DE_I         &kp DE_O    &kp DE_N0     &kp DE_EQUAL
-&kp CAPSLOCK  &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F          &kp DE_G                                         &kp DE_H      &kp DE_J        &kp DE_K         &kp DE_L    &kp DE_P      &kp ESCAPE
+&kp CAPSLOCK  &kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R          &kp DE_T                                         &kp DE_Z      &kp DE_U        &kp DE_I         &kp DE_O    &kp DE_N0     &kp DE_EQUAL
+&kp TAB       &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F          &kp DE_G                                         &kp DE_H      &kp DE_J        &kp DE_K         &kp DE_L    &kp DE_P      &kp ESCAPE
 &kp LEFT_ALT  &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V          &kp DE_B        &kp LEFT_WIN    &kp DE_QUESTION  &kp DE_N      &kp DE_M        &kp DE_COMMA     &kp DE_DOT  &kp UP_ARROW  &kp DOWN_ARROW
                                     &kp ENTER  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &mo 2           &kp BACKSPACE    &kp DE_SPACE  &kp LEFT_ARROW  &kp RIGHT_ARROW
             >;
