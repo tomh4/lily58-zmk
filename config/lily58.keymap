@@ -51,11 +51,11 @@
         symbols {
             display-name = "Symbols";
             bindings = <
-&kp ESCAPE    &kp F1           &kp F2                &kp F3           &kp F4            &kp F5                                       &kp F6             &kp F7                   &kp F8                    &kp F9               &kp F10               &kp DE_GRAVE
-&kp DE_CARET  &kp DE_AT_SIGN   &kp DE_W              &kp DE_EURO      &kp DE_R          &kp TAB                                      &kp DE_PIPE        &kp DE_U_UMLAUT          &kp DE_POUND              &kp DE_O_UMLAUT      &kp DE_SQT            &kp DE_PIPE
-&kp DE_TILDE  &kp DE_A_UMLAUT  &kp DE_DOUBLE_QUOTES  &kp DE_ASTERISK  &kp DE_DOLLAR     &kp DE_PERCENT                               &kp DE_LEFT_BRACE  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_LBKT          &kp DE_RIGHT_BRACKET  &kp DE_RIGHT_BRACE
-&kp DE_Y      &kp DE_SZ        &kp DE_X              &kp DE_C         &kp DE_V          &kp DE_AMPERSAND  &kp DELETE    &kp DE_EXCL  &kp DE_SEMICOLON   &kp DE_COLON             &kp DE_LESS_THAN          &kp DE_GREATER_THAN  &kp DE_MINUS          &kp DE_UNDERSCORE
-                                                     &trans           &kp LEFT_CONTROL  &kp LEFT_SHIFT    &mo 2         &kp DELETE   &kp ENTER          &kp DE_BACKSLASH         &kp DE_SLASH
+&kp ESCAPE    &kp F1           &kp F2                &kp F3           &kp F4             &kp F5                                       &kp F6             &kp F7                   &kp F8                    &kp F9               &kp F10               &kp DE_GRAVE
+&kp DE_CARET  &kp DE_AT_SIGN   &kp DE_W              &kp DE_EURO      &kp DE_MINUS       &kp TAB                                      &kp DE_PIPE        &kp DE_U_UMLAUT          &kp DE_POUND              &kp DE_O_UMLAUT      &kp DE_SQT            &kp DE_PIPE
+&kp DE_TILDE  &kp DE_A_UMLAUT  &kp DE_DOUBLE_QUOTES  &kp DE_ASTERISK  &kp DE_DOLLAR      &kp DE_PERCENT                               &kp DE_LEFT_BRACE  &kp DE_LEFT_PARENTHESIS  &kp DE_RIGHT_PARENTHESIS  &kp DE_LBKT          &kp DE_RIGHT_BRACKET  &kp DE_RIGHT_BRACE
+&kp DE_Y      &kp DE_SZ        &kp DE_X              &kp DE_C         &kp DE_UNDERSCORE  &kp DE_AMPERSAND  &kp DELETE    &kp DE_EXCL  &kp DE_SEMICOLON   &kp DE_COLON             &kp DE_LESS_THAN          &kp DE_GREATER_THAN  &kp DE_MINUS          &kp DE_UNDERSCORE
+                                                     &trans           &kp LEFT_CONTROL   &kp LEFT_SHIFT    &mo 2         &kp DELETE   &kp ENTER          &kp DE_BACKSLASH         &kp DE_SLASH
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
