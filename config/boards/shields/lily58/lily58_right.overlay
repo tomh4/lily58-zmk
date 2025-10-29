@@ -1,24 +1,5 @@
 #include "lily58.dtsi"
 
-&i2c0 {
-    status = "okay";
-
-    /* Keep the OLED node if it's defined here on the right half.
-     * If the OLED is actually on the left half in your build,
-     * don't copy it here. It's fine if only the left overlay has ssd1306@3c.
-     * The important part is: don't delete whatever's already there.
-     */
-     pimoroni_pim447: zmk_pimoroni_pim447@0a {
-        compatible = "zephyr,input-device", "zmk,pimoroni-pim447";
-        reg = <0x0A>;
-		/* int-gpios = <&gpio0 8 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        * automouse-layer = <3>;
-        */
-        automouse-layer = <5>;
-    };
-
-};
-
 
 pimoroni_pim447 {
     device = <&pimoroni_pim447>;
