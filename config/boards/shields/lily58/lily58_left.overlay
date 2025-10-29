@@ -1,0 +1,5 @@
+#include "lily58.dtsi"
+
+&pimoroni_pim447_listener {
+    status = "okay";
+};

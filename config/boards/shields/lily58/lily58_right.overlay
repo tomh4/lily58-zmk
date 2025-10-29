@@ -1,3 +1,5 @@
+#include "lily58.dtsi"
+
 &i2c0 {
     status = "okay";
 
@@ -14,4 +16,10 @@
         */
     };
 
+};
+
+
+pimoroni_pim447 {
+    device = <&pimoroni_pim447>;
+    input-processors = <&zip_xy_transform (INPUT_TRANSFORM_XY_SWAP | INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 5 3>;
 };
