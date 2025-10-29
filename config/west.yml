@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: pmalecka
-      url-base: https://github.com/pmalecka
+    - name: tomh4
+      url-base: https://github.com/tomh4
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: pim447
-      remote: pmalecka
+      remote: tomh4
       revision: new-zmk     # the trackball driver branch you chose
       path: modules/pim447  # lives under modules/ so Zephyr picks it up
   self:
