@@ -1,5 +1,22 @@
 #include "lily58.dtsi"
 
+/ {
+    split_inputs {
+        #address-cells = <1>;
+        #size-cells = <0>;
+
+        pimoroni_pim447: pimoroni_pim447@0 {
+            compatible = "zmk,input-split";
+            reg = <0>;
+        };
+    };
+
+    pimoroni_pim447_listener: pimoroni_pim447_listener {
+		compatible = "zmk,input-listener";
+		device = <&pimoroni_pim447>;
+        status = "disabled";
+	};
+};
 &pimoroni_pim447_listener {
     status = "okay";
 };
