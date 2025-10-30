@@ -12,6 +12,5 @@ manifest:
     - name: pim447
       remote: tomh4
       revision: new-zmk     # the trackball driver branch you chose
-      path: modules/pim447  # lives under modules/ so Zephyr picks it up
   self:
     path: config
