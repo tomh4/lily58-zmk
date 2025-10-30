@@ -2,15 +2,10 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: tomh4
-      url-base: https://github.com/tomh4
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: pim447
-      remote: tomh4
-      revision: new-zmk     # the trackball driver branch you chose
   self:
     path: config
